@@ -1,0 +1,100 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-weight: 800;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cartao {
+    max-width: 537px;
+    height: 330px;
+    background-color: var(--advice-card-color);
+    border-radius: 12px;
+}
+
+.cartao h2 {
+    display: flex;
+    justify-content: center;
+    padding: 48px 30px 24px 30px;
+    font-size: 11px;
+    color: var(--advice-dice-color);
+    letter-spacing: 3px;
+}
+
+.cartao p {
+    text-align: center;
+    padding: 5px 35px 0px 35px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+.divisor {
+    text-align: center;
+    padding: 29px 20px 0 20px;
+}
+
+.divisor img {
+    max-width: 440px;
+}
+
+.botao {
+    background-color: var(--advice-dice-color);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 19px;
+    margin: 37px 0px 0 233px;
+    max-width: 65px;
+    max-height: 65px;
+}
+
+.botao a {
+    padding-top: 1px;
+}
+
+@media (max-width: 576px) {
+    .cartao {
+        max-width: 330px;
+        height: 290px;
+
+    }
+
+    .cartao h2 {
+        padding: 30px 0 10px 0;
+        font-size: 10px;
+    }
+
+    .cartao p {
+        font-size: 20px;
+
+    }
+
+    .divisor {
+        padding: 0;
+    }
+
+    .divisor img {
+        max-width: 280px;
+        margin-top: -px;
+    }
+
+    .botao {
+        display: flex;
+        justify-content: center;
+        margin: 22px 131px 0px 131px;
+
+    }
+
+    .botao a {
+        padding: 1px;
+    }
+}
